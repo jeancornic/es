@@ -1,0 +1,14 @@
+{
+  "name": "es_webapp",
+  "version": "1.0.0",
+  "description": "A single-page webapp that lists shards of an ES cluster, grouped by index.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Jean Cornic",
+  "dependencies": {
+    "elasticsearch": "^8.2.0"
+  }
+}
